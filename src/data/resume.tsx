@@ -30,6 +30,7 @@ export const DATA = {
 //     { name: "MySQL", icon: Mysql },
 //     { name: "Redis", icon: Redis },
 //     { name: "AWS", icon: Aws },
+    ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
