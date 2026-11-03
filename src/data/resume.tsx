@@ -4,33 +4,39 @@ import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Python } from "@/components/ui/svgs/python";
 import { Docker } from "@/components/ui/svgs/docker";
-// TODO: add more icons from https://svgl.app (JavaScript, Django, FastAPI,
+import { JavaScript } from "@/components/ui/svgs/javascript";
+import { Django } from "@/components/ui/svgs/django";
+import { Fastapi } from "@/components/ui/svgs/fastapi";
+import { Flask } from "@/components/ui/svgs/flask";
+import { Mysql } from "@/components/ui/svgs/mysql";
+import { Redis } from "@/components/ui/svgs/redis";
+import { Aws } from "@/components/ui/svgs/aws";
 
 
 export const DATA = {
   name: "Ajish S",
   initials: "AS",
-  url: "#",
+  url: "https://github.com/ajishcodes/portfolio/",
   location: "Thiruvananthapuram, Kerala, India",
   locationLink: "https://www.google.com/maps/place/Thiruvananthapuram",
   description:
     "Senior Software Engineer & Full Stack Developer specialising in React, TypeScript and Python. I build secure, scalable healthcare and enterprise web apps.",
   summary:
     "Full Stack Web Developer with a strong focus on frontend development using React JS and JavaScript. I have experience leading teams and delivering scalable, responsive web applications. I'm proficient in backend technologies like Python (Django, FastAPI, Flask) and MySQL, with a track record of building multiple web apps and implementing secure APIs. I'm driven by problem-solving, innovation, and pushing web development boundaries. [Take a look at my work experience](/#work) or [my projects](/#projects).",
-  avatarUrl: "/me.png",
+  avatarUrl: "/",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Typescript", icon: Typescript },
     { name: "Python", icon: Python },
     { name: "Docker", icon: Docker },
-//  { name: "JavaScript", icon: JavaScript },
-//     { name: "Django", icon: Django },
-//     { name: "FastAPI", icon: Fastapi },
-//     { name: "Flask", icon: Flask },
-//     { name: "MySQL", icon: Mysql },
-//     { name: "Redis", icon: Redis },
-//     { name: "AWS", icon: Aws },
-    ],
+    { name: "JavaScript", icon: JavaScript },
+    { name: "Django", icon: Django },
+    { name: "FastAPI", icon: Fastapi },
+    { name: "Flask", icon: Flask },
+    { name: "MySQL", icon: Mysql },
+    { name: "Redis", icon: Redis },
+    { name: "AWS", icon: Aws },
+  ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
@@ -61,7 +67,7 @@ export const DATA = {
       badges: [],
       location: "Thiruvananthapuram, India",
       title: "Senior Software Engineer",
-      logoUrl: "/equipo.png", // TODO: add logo to /public
+      logoUrl: "/equipo.png",
       start: "Feb 2022",
       end: "Present",
       description:
@@ -189,7 +195,7 @@ export const DATA = {
       video: "",
     },
   ],
-  
+
   awards: [
     { title: "AWS Well-Architected Proficient", date: "Apr 2026" },
     { title: "AWS Educate: Getting Started with Databases", date: "Jul 2023" },
